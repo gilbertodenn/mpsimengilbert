@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
