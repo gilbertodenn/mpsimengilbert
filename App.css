@@ -1,35 +1,86 @@
-.App {
+Header {
   text-align: center;
-  font-family: sans-serif;
+  font-family: bauhaus;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  justify-content: center;
+  font-size: larger;
+  align-items: center;
+  height: fit-content;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+.logo {
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
 }
 
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.background {
+  margin: 0px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(63, 63, 63);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
-form {
-  display: inline-block;
-  text-align: left;
+.kontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+  color: (255,255,255);
+
 }
 
-input {
-  margin: 10px;
-  padding: 5px;
-  width: 200px;
+.item {
+  flex: 1;
+  align-self: center; 
 }
 
-button {
-  margin-top: 10px;
-  padding: 5px 10px;
-  font-size: 1em;
+.budi {
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  
 }
 
-button:hover {
-  cursor: pointer;
+.bg-body-tertiary {
+  text-align: center;
+  font-family: bauhaus;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  justify-content: center;
+  font-size: larger;
+  align-items: center;
+  height: fit-content;
+}
+
+.me-auto {
+  text-align: center;
+  font-family: bauhaus;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.d-flex {
+  text-align: center;
+  font-family: bauhaus;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  justify-content: center;
+  font-size: larger;
+  align-items: center;
+  height: fit-content;
+}
+
+.me-auto1 {
+  text-align: center;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
 }
